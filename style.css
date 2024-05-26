@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+#color-fliper{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    height: 100vh;
+}
+.backgroundcolor{
+    background-color: beige;
+    height: 7vh;
+    width: 446px;
+    margin: 25px;
+}
+
+#color-btn{
+    width: 93px;
+    cursor: pointer;
+    height: 37px;
+    margin: auto;
+}
+
+#backgroundcolor{
+    background-color: deeppink;
+    padding: 26px 84px;
+    margin: 18px;
+}
